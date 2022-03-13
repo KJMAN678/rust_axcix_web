@@ -1,0 +1,8 @@
+## cargo のパスを通す
+source $HOME/.cargo/env
+
+## コンパイル
+cargo build
+
+## 実行ファイルを実行
+target/debug/hello_world
